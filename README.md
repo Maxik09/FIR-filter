@@ -69,5 +69,4 @@ We successfully implemented and tested a FIR-based averaging filter in VHDL. The
 
 ---
 
-##  Recommended Repo Structure
 
