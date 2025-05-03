@@ -24,13 +24,15 @@ The averaging filter works by summing multiple recent signal values and computin
 
 The system receives a noisy input signal and outputs a filtered signal using a FIR filter block.
 
-![Block Diagram](./images/block_diagram.png)
+![25ac7623-e943-47b2-b62a-f14ea9bbb266](https://github.com/user-attachments/assets/b230549b-7569-44b6-a770-9bb595c58ec6)
+
 
 ###  System-Level Architecture
 
 This section of the design shows the implementation details of the FIR filter logic including shift registers and adders.
 
-![System Design](./images/system_architecture.png)
+
+![5da1691a-204a-44f9-9937-dadc05f160b8](https://github.com/user-attachments/assets/f1898b0d-2820-4cce-9a7c-db69e5ee0856)
 
 ---
 
@@ -39,7 +41,7 @@ This section of the design shows the implementation details of the FIR filter lo
 The waveform below shows the simulation of the FIR filter using a testbench.  
 The **input signal (`x_in`)** contains noise, and the **output signal (`y_out`)** is smoothed by the averaging process.
 
-![Simulation Waveform](./images/simulation_waveform.png)
+![40eb1a38-c66f-41ca-88dc-332761fca918](https://github.com/user-attachments/assets/c460bd60-5774-483c-bb46-99523aec2a2e)
 
 ---
 
