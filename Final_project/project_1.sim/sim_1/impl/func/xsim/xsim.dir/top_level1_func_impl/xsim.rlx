@@ -1,0 +1,12 @@
+
+{ 
+    crc :  8278294649216255153  , 
+    ccp_crc :  0  , 
+    cmdline : " --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot top_level1_func_impl xil_defaultlib.top_level1 xil_defaultlib.glbl" , 
+    buildDate : "May  7 2023" , 
+    buildTime : "15:24:31" , 
+    linkCmd : "C:\\Xilinx\\Vivado\\2023.1\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/top_level1_func_impl/xsimk.exe\"   \"xsim.dir/top_level1_func_impl/obj/xsim_0.win64.obj\" \"xsim.dir/top_level1_func_impl/obj/xsim_1.win64.obj\" -L\"C:\\Xilinx\\Vivado\\2023.1\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 
